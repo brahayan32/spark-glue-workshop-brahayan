@@ -32,8 +32,9 @@ construido con AWS Glue Studio, Step Functions y Athena.
 - Con las cuatro tablas escritas en gold/, se evidencia que el modelo estrella quedó construido y listo para consultarse.
 
 ### Paso 7 — Orquestación con Step Functions
-![Pipeline orquestado con ambos estados completados](static/step_7_step_functions_1.png)
-![Pipeline orquestado con ambos estados completados](static/step_7_step_functions_2.png)
+![Pipeline orquestado con ambos estados completados](evidence/step_7_step_functions.png)
+
+
 - Con ambos estados en verde, se evidencia que el pipeline completo corre de forma orquestada, sin intervención manual entre un job y el otro.
 - 
 ### Paso 8 — Consultas analíticas en Athena
