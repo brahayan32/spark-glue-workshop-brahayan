@@ -10,10 +10,13 @@ construido con AWS Glue Studio, Step Functions y Athena.
 ![Budget creado en Billing](evidence/step_1_budget.png)
 ![Budget creado en Billing](evidence/step_00_budget.png)
 
+
 - Se evidencia un consumo del _90%_ debido a que en mi cuenta personal se han estado utilizando otros servicios que no están relacionados con el diseño de esta implementación. Con esto, cualquier gasto inesperado durante el taller queda bajo control desde el primer minuto.
 
 ### Step 2 — Bucket S3 con las 5 carpetas
-![Bucket del Data Lake](static/step_2_s3_bucket.png)
+![Bucket del Data Lake](evidence/step_2_s3_bucket.png)
+
+
 - Con esto, el Data Lake ya tiene su base: las cinco carpetas listas para recibir cada capa del pipeline.
 
 ### Step 5 — Job Bronze → Silver completado
