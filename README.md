@@ -20,7 +20,7 @@ construido con AWS Glue Studio, Step Functions y Athena.
 - Con esto, el Data Lake ya tiene su base: las cinco carpetas listas para recibir cada capa del pipeline.
 
 ### Step 5 — Job Bronze → Silver completado
-![Job Bronze a Silver con estado Succeeded](static/step_5_glue_silver_succeeded_1.png)
+![Job Bronze a Silver con estado Succeeded](evidence/step_5_glue_silver_succeeded.png)
 ![Job Bronze a Silver con estado Succeeded](static/step_5_glue_goold_succeeded_2.png)
 - Con el job en Succeeded y las particiones por año visibles en silver/, se evidencia que la limpieza y el tipado funcionaron correctamente.
 
