@@ -22,7 +22,7 @@
             "Parameters": {
                 "JobName": "spark-glue-workshop-silver-to-gold",
                 "Arguments": {
-                    "--BUCKET": "taller-spark-glue-datalake-032"
+                    "--BUCKET": "spark-glue-workshop-datalake-bacs-01"
                 }
             },
             "Catch": [
