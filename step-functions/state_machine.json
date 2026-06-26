@@ -20,7 +20,7 @@
             "Type": "Task",
             "Resource": "arn:aws:states:::glue:startJobRun.sync",
             "Parameters": {
-                "JobName": "spark-glue-workshop-silver-to-gold",
+                "JobName": "spark-glue-workshop-bronze-to-gold",
                 "Arguments": {
                     "--BUCKET": "spark-glue-workshop-datalake-bacs-01"
                 }

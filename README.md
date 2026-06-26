@@ -7,8 +7,6 @@ construido con AWS Glue Studio, Step Functions y Athena.
 
 ### Step 0 — Alerta de presupuesto
 ![Budget creado en Billing](evidence/step_0_budget.png)
-![Budget creado en Billing](evidence/step_1_budget.png)
-![Budget creado en Billing](evidence/step_00_budget.png)
 
 
 - Se evidencia un consumo del _90%_ debido a que en mi cuenta personal se han estado utilizando otros servicios que no están relacionados con el diseño de esta implementación. Con esto, cualquier gasto inesperado durante el taller queda bajo control desde el primer minuto.
@@ -38,9 +36,8 @@ construido con AWS Glue Studio, Step Functions y Athena.
 - Con ambos estados en verde, se evidencia que el pipeline completo corre de forma orquestada, sin intervención manual entre un job y el otro.
 - 
 ### Paso 8 — Consultas analíticas en Athena
-![Consulta de negocio ejecutada sobre el modelo Gold](static/step_8_athena_queries_p1.png)
-![Consulta de negocio ejecutada sobre el modelo Gold](static/step_8_athena_queries_p2.png)
-![Consulta de negocio ejecutada sobre el modelo Gold](static/step_8_athena_queries_p3.png)
-![Consulta de negocio ejecutada sobre el modelo Gold](static/step_8_athena_queries_p4.png)
+![Consulta de negocio ejecutada sobre el modelo Gold](evidence/step_8_athena_queries.png)
+![Consulta de negocio ejecutada sobre el modelo Gold](evidence/step_8_athena_queries2.png)
+
 
 - Con las consultas devolviendo resultados, se evidencia que el modelo Gold responde correctamente las preguntas de negocio planteadas.
